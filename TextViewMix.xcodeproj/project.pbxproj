@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6F01C5A1CC63D7C00BE11FB /* MyTextview.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F01C591CC63D7C00BE11FB /* MyTextview.m */; };
 		B6F062121BE7492400DCE8F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F062111BE7492400DCE8F3 /* main.m */; };
 		B6F062151BE7492400DCE8F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F062141BE7492400DCE8F3 /* AppDelegate.m */; };
 		B6F062181BE7492400DCE8F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F062171BE7492400DCE8F3 /* ViewController.m */; };
@@ -62,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6F01C581CC63D7C00BE11FB /* MyTextview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextview.h; sourceTree = "<group>"; };
+		B6F01C591CC63D7C00BE11FB /* MyTextview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextview.m; sourceTree = "<group>"; };
 		B6F0620C1BE7492400DCE8F3 /* TextViewMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F062101BE7492400DCE8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F062111BE7492400DCE8F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 		B6F0620E1BE7492400DCE8F3 /* TextViewMix */ = {
 			isa = PBXGroup;
 			children = (
+				B6F01C581CC63D7C00BE11FB /* MyTextview.h */,
+				B6F01C591CC63D7C00BE11FB /* MyTextview.m */,
 				B6F062351BE7612F00DCE8F3 /* 头像 */,
 				B6F062131BE7492400DCE8F3 /* AppDelegate.h */,
 				B6F062141BE7492400DCE8F3 /* AppDelegate.m */,
@@ -376,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F062181BE7492400DCE8F3 /* ViewController.m in Sources */,
+				B6F01C5A1CC63D7C00BE11FB /* MyTextview.m in Sources */,
 				B6F062151BE7492400DCE8F3 /* AppDelegate.m in Sources */,
 				B6F062121BE7492400DCE8F3 /* main.m in Sources */,
 			);
@@ -572,6 +578,7 @@
 				B6F062311BE7492400DCE8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6F062321BE7492400DCE8F3 /* Build configuration list for PBXNativeTarget "TextViewMixTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +587,7 @@
 				B6F062341BE7492400DCE8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
