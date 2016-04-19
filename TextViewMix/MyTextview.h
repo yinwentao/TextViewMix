@@ -10,4 +10,7 @@
 
 @interface MyTextview : NSObject
 
+@property (nonatomic,copy) NSString *name;// 姓名
+
+
 @end
