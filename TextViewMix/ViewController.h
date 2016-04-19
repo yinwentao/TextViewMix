@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-// 一个图文混排的demo
+// 使用textview做图文混排
 @interface ViewController : UIViewController
 
 
